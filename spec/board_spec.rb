@@ -5,6 +5,6 @@ describe Board do
   end
 
   it 'generates a board of default size 1×1' do
-    expect(subject.size).to be 1
+    expect(subject.size).to be Board::DEFAULT_SIZE
   end
 end
